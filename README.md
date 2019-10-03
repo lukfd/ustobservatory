@@ -44,7 +44,7 @@ from this class there are these methods :
 - getPixelArray() : return ENTIRE array of pixels values
 
 ***
-## useful links and DOCs
+# Useful links and DOCs
 - [Astropy](http://docs.astropy.org/en/stable/index.html) (DOCs for astropy)
 - [Pillow](https://pillow.readthedocs.io/en/stable/index.html) (DOCs of a Pyhton library for image processing)
 - [PyFits](https://pythonhosted.org/pyfits/#creating-a-new-image-file) (DOCs for PyFits by STSI)
