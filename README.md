@@ -1,8 +1,19 @@
-# University of St. Thomas Observatory
+# University of St. Thomas' Observatory
 *These data are property of the St. Thomas University. All rights are reserved.*
 > Luca Comba contatcs : comb6457@stthomas.edu
 
 Using photoshop we should be able to process it easily, Nothing is better than coding it !
+Using fit, fits, fts files to get colorized pictures
+# ToDo
+- [ ] Read Fit imgs
+- [ ] manipulate data
+- [ ] manipulate pixels
+
+**Things to keep in mind :**
+- moving earth
+- bad pixels
+- light pollution
+- circle pixels
 
 ## useful links and DOCs
 - [Astropy](http://docs.astropy.org/en/stable/index.html) (DOCs for astropy)
