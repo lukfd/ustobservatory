@@ -1,6 +1,7 @@
 # University of St. Thomas' Observatory
 *These data are property of the St. Thomas University. All rights are reserved.*
-> Luca Comba contatcs : comb6457@stthomas.edu
+> Luca Comba : comb6457@stthomas.edu
+> for other infos [lukfd.github.io](http://www.lukfd.github.io)
 
 Using photoshop we should be able to process it easily, Nothing is better than coding it !
 Using fit, fits, fts files to get colorized pictures
