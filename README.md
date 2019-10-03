@@ -2,6 +2,7 @@
 *These data are property of the St. Thomas University. All rights are reserved.*
 > Luca Comba : comb6457@stthomas.edu
 > for other infos [lukfd.github.io](https://lukfd.github.io/)
+---
 
 Using photoshop we should be able to process it easily, Nothing is better than coding it !
 Using fit, fits, fts files to get colorized pictures
@@ -22,20 +23,27 @@ see newscript folder
 ## readfit.py
 Object to create is FitsData(filename)
 from this class there are these methods :
+
 **1. General Read Fits files***
+
 - __init__(filename)
 - close()
+
 **2. Reading meta data**
+
 - printInfo()
 - printDate()
 - setHeader(targname, observer)
 - getHeaderKeys() : return a list of the header's key
 - getHeaderKey(key) : return the key's value
+
 **3. Reading Image data**
+
 - getShape() : return tuple of the shape of the image
 - getNameType() : return data type
 - getPixelArray() : return ENTIRE array of pixels values
 
+***
 ## useful links and DOCs
 - [Astropy](http://docs.astropy.org/en/stable/index.html) (DOCs for astropy)
 - [Pillow](https://pillow.readthedocs.io/en/stable/index.html) (DOCs of a Pyhton library for image processing)
