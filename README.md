@@ -18,6 +18,8 @@ see newscript folder
 - light pollution
 - circle pixels
 
+---
+
 # Documentation
 
 ## readfit.py
