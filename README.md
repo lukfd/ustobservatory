@@ -49,7 +49,7 @@ from this class there are these methods :
 # Useful links and DOCs
 - [Astropy](http://docs.astropy.org/en/stable/index.html) (DOCs for astropy)
 - [Pillow](https://pillow.readthedocs.io/en/stable/index.html) (DOCs of a Pyhton library for image processing)
-- [Scipy image processing tips](http://scipy-lectures.org/advanced/image_processing/)
+- [Scipy](http://scipy-lectures.org/advanced/image_processing/) (tips for image processing)
 - [PyFits](https://pythonhosted.org/pyfits/#creating-a-new-image-file) (DOCs for PyFits by STSI)
 - [Python code to convert](https://astromsshin.github.io/science/code/Python_fits_image/index.html) (python direction to convert fits images)
 - [Fitstoimg](https://github.com/psds075/fitstoimg) (fits extension to Jpg)
