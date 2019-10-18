@@ -52,6 +52,7 @@ from this class there are these methods :
 - [Scipy](http://scipy-lectures.org/advanced/image_processing/) (tips for image processing)
 - [PyFits](https://pythonhosted.org/pyfits/#creating-a-new-image-file) (DOCs for PyFits by STSI)
 - [Python code to convert](https://astromsshin.github.io/science/code/Python_fits_image/index.html) (python direction to convert fits images)
+- [http://prancer.physics.louisville.edu/astrowiki/index.php/Image_processing_with_Python_and_SciPy](http://prancer.physics.louisville.edu/astrowiki/index.php/Image_processing_with_Python_and_SciPy)(FITS images hints)
 - [Fitstoimg](https://github.com/psds075/fitstoimg) (fits extension to Jpg)
 - [SCIKIT- IMAGE a Py Library on GitHub](https://github.com/scikit-image/scikit-image)
 
