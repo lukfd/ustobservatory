@@ -8,7 +8,7 @@ Using photoshop we should be able to process it easily, Nothing is better than c
 Using fit, fits, fts files to get colorized pictures
 # ToDo
 see newscript folder
-- [ ] Read Fit imgs
+- [x] Read Fit imgs
 - [ ] manipulate data
 - [ ] manipulate pixels
 
@@ -48,6 +48,7 @@ from this class there are these methods :
 ***
 # Useful links and DOCs
 - [Astropy](http://docs.astropy.org/en/stable/index.html) (DOCs for astropy)
+- [Astropy tutorials](Search Astropy tutorials)
 - [Pillow](https://pillow.readthedocs.io/en/stable/index.html) (DOCs of a Pyhton library for image processing)
 - [Scipy](http://scipy-lectures.org/advanced/image_processing/) (tips for image processing)
 - [PyFits](https://pythonhosted.org/pyfits/#creating-a-new-image-file) (DOCs for PyFits by STSI)
