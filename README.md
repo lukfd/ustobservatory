@@ -6,14 +6,19 @@
 
 Using photoshop we should be able to process it easily, Nothing is better than coding it !
 Using fit, fits, fts files to get colorized pictures
-# ToDo
+
+# ToDo List
+
 see newscript folder
+
+- [ ] allign pixels
+- [ ] merge green, red and blue fits images
 - [x] Read Fit imgs
-- [ ] manipulate data
-- [ ] manipulate pixels
+- [x] manipulate data
+- [x] manipulate pixels
 
 **Things to keep in mind :**
-- moving earth
+- img with moving objects
 - bad pixels
 - light pollution
 - circle pixels
