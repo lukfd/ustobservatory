@@ -179,7 +179,9 @@ Remeber HOW TO BASIC :
 	plt.imshow(image_r, origin='lower')
 	plt.show()
 
-
+- MAKE RGB IMAGE
+	https://docs.astropy.org/en/stable/api/astropy.visualization.make_lupton_rgb.html
+	make_lupton_rgb(image_r, image_g, image_b, minimum=0, stretch=5, Q=8, filename=None)
 
 
 '''
