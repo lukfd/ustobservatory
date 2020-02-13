@@ -13,6 +13,7 @@ see newscript folder
 
 - [ ] allign pixels
 - [ ] merge green, red and blue fits images
+- [ ] adjust colors levels
 - [x] Read Fit imgs
 - [x] manipulate data
 - [x] manipulate pixels
@@ -61,8 +62,11 @@ from this class there are these methods :
 - [http://prancer.physics.louisville.edu/astrowiki/index.php/Image_processing_with_Python_and_SciPy](http://prancer.physics.louisville.edu/astrowiki/index.php/Image_processing_with_Python_and_SciPy)(FITS images hints)
 - [Fitstoimg](https://github.com/psds075/fitstoimg) (fits extension to Jpg)
 - [SCIKIT- IMAGE a Py Library on GitHub](https://github.com/scikit-image/scikit-image)
+- [An Astropy library to make it easy? APLPY](https://aplpy.readthedocs.io/en/stable/fitsfigure/quick_reference.html)
+
 
 #### Other general links
+
 - [Space Telescope Science Institute - Home | STScI](http://www.stsci.edu/) , We help humanity explore the universe with advanced space telescopes and ever-growing data archives. 
 - NASA Fits support [Website](https://fits.gsfc.nasa.gov/), 
 - NASA SOFTWARE for data and Image processing [Website](https://software.nasa.gov/data_and_image_processing)
