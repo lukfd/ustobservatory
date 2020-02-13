@@ -1,0 +1,40 @@
+Documentations and notes as Archive.
+
+TRY CODE:
+-------------------------------------------------
+# Function for linear scaling, written by Luca C.
+def linear(inputArray, scaleMin = None, scaleMax = None):
+	imageData = numpy.array(inputArray, copy=True)
+
+	if scaleMin == None:
+		scaleMin = imageData.min()
+	if scaleMax == None:
+		scaleMax = imageData.max()
+
+	imageData = imageData.clip(min = scaleMin, max= scaleMax)
+	
+	#imageData = (imageData -scaleMin) / (scaleMax - scaleMin)
+	imageData = 255.0*(imageData-float(scaleMin))/(scaleMax-scaleMin)
+
+	indices = numpy.where(imageData < 0)
+	imageData[indices] = 0.0
+	indices = numpy.where(imageData > 1)
+	imageData[indices] = 1.0
+
+	imageData = imageData * 200
+	# print(imageData[0]) ## Just first array
+-------------------------------------------------
+''' Image Visualization with Matplotlib
+	
+	Make it show
+	
+	plt.imshow(pixels, cmap='gray', norm = PowerNorm(0.5))
+	plt.show()
+
+		plt.imshow(image, cmap='gray')
+		plt.colorbar()
+		plt.show()
+'''
+-------------------------------------------------
+
+WEBSITES:
