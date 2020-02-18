@@ -62,7 +62,7 @@ from this class there are these methods :
 - [http://prancer.physics.louisville.edu/astrowiki/index.php/Image_processing_with_Python_and_SciPy](http://prancer.physics.louisville.edu/astrowiki/index.php/Image_processing_with_Python_and_SciPy)(FITS images hints)
 - [Fitstoimg](https://github.com/psds075/fitstoimg) (fits extension to Jpg)
 - [SCIKIT- IMAGE a Py Library on GitHub](https://github.com/scikit-image/scikit-image)
-- [An Astropy library to make it easy? APLPY](https://aplpy.readthedocs.io/en/stable/fitsfigure/quick_reference.html)
+- [An Astropy library to make it easy? APLPY](https://aplpy.readthedocs.io/en/stable/fitsfigure/quick_reference.html) (APLPY library)
 
 
 #### Other general links
