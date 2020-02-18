@@ -51,6 +51,10 @@ from this class there are these methods :
 - getNameType() : return data type
 - getPixelArray() : return ENTIRE array of pixels values
 
+### prova.py
+
+It is a simplified Astropy application for processing RGB image stored in the /data directory.
+
 ***
 # Useful links and DOCs
 - [Astropy](http://docs.astropy.org/en/stable/index.html) (DOCs for astropy)
