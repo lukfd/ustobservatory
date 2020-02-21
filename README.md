@@ -14,8 +14,8 @@ see newscript folder
 - [ ] allign images
 It's called Image Registration. 
 [Astronomical Image Registration Docs](https://image-registration.readthedocs.io/en/latest/)
-[Github tutorial](https://github.com/keflavich/image_registration)
-
+,[Github tutorial](https://github.com/keflavich/image_registration)
+,[A paper about it](https://arxiv.org/pdf/1909.02946.pdf)
 - [ ] merge green, red and blue fits images
 - [ ] adjust colors levels
 - [x] Read Fit imgs
