@@ -7,6 +7,7 @@
 Using photoshop we should be able to process it easily, Nothing is better than coding it !
 Using fit, fits, fts files to get colorized pictures
 
+---
 # ToDo List
 
 see newscript folder
