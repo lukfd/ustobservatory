@@ -12,6 +12,10 @@ Using fit, fits, fts files to get colorized pictures
 see newscript folder
 
 - [ ] allign images
+It's called Image Registration. 
+[Astronomical Image Registration Docs](https://image-registration.readthedocs.io/en/latest/)
+[Github tutorial](https://github.com/keflavich/image_registration)
+
 - [ ] merge green, red and blue fits images
 - [ ] adjust colors levels
 - [x] Read Fit imgs
