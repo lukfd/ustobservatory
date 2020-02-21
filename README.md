@@ -11,7 +11,7 @@ Using fit, fits, fts files to get colorized pictures
 
 see newscript folder
 
-- [ ] allign pixels
+- [ ] allign images
 - [ ] merge green, red and blue fits images
 - [ ] adjust colors levels
 - [x] Read Fit imgs
@@ -75,6 +75,7 @@ It is a simplified Astropy application for processing RGB image stored in the /d
 - NASA Fits support [Website](https://fits.gsfc.nasa.gov/), 
 - NASA SOFTWARE for data and Image processing [Website](https://software.nasa.gov/data_and_image_processing)
 - scikit-Image [Python Library](https://scikit-image.org/)
+- Ginga [a japanese Python library](http://www.astropython.org/packages/ginga/)
 
 #### files from the ssh observatory.
 present in the file system :
