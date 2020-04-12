@@ -87,3 +87,6 @@ It is a simplified Astropy application for processing RGB image stored in the /d
 present in the file system :
  Scripts (pipeline)
 which uses pyRaf
+
+#### Good resources
+- Facebook group for ASTROPY
