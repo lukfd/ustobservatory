@@ -19,6 +19,7 @@ It's called Image Registration.
 ,[A paper about it](https://arxiv.org/pdf/1909.02946.pdf)
 - [ ] merge green, red and blue fits images
 - [ ] adjust colors levels
+- [ ] rotate images correctly
 - [x] Read Fit imgs
 - [x] manipulate data
 - [x] manipulate pixels
