@@ -56,8 +56,8 @@ from this class there are these methods :
 - getShape() : return tuple of the shape of the image
 - getNameType() : return data type
 - getPixelArray() : return ENTIRE array of pixels values
-
-### prova.py (a faster way to make RGB pictures)
+***
+## prova.py (a faster way to make RGB pictures)
 
 It is a simplified Astropy application for processing RGB image stored in the /data directory.
 
