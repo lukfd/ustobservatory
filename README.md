@@ -57,9 +57,15 @@ from this class there are these methods :
 - getNameType() : return data type
 - getPixelArray() : return ENTIRE array of pixels values
 
-### prova.py
+### prova.py (a faster way to make RGB pictures)
 
 It is a simplified Astropy application for processing RGB image stored in the /data directory.
+
+From some people insights we can try to use other Python pachages to color the pictures:
+
+- make_lupton_rgb just apply a asinh stretch and assumes that the input image is linear. Therefore you would just need to apply scale and Q as parameters of the method. Another problem that could be related to **make_lupton_rgb** is that is needed to change vmin and vmax [Reddit Post](https://www.reddit.com/r/askastronomy/comments/g078q6/problem_with_making_colored_images_in_astropy/)
+- Use matplotlib. [Here is an Example of MATPLOTLIB for coloring pictures](https://github.com/soar-telescope/goodman_pipeline/blob/f0e050e1762e984e491577bdda383d63c49d7ab4/goodman_pipeline/core/core.py?fbclid=IwAR2o2UprDblvUramMnZVuoRfNy3KGukHahg7jIMoEJ6n-vT_JyG5CgXr0N8#L3193-L3209) The only imporntat part is to define the lower and upper limits as is Z1 and Z2, so then in imshow() use clim(Z1, Z2) where formulas for Z1 and Z2 come form iraf.
+- Another method is to use [APLpy](https://aplpy.readthedocs.io/en/stable/rgb.html?fbclid=IwAR1E8DeXcgFvlXJOzcY2QJO92zr-51ADO4rIg7sl-Qo_5YcTc0Srz1Lnyzg) Making RGB Images!
 
 ***
 # Useful links and DOCs
