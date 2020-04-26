@@ -57,9 +57,11 @@ from this class there are these methods :
 - getNameType() : return data type
 - getPixelArray() : return ENTIRE array of pixels values
 ***
-## prova.py (a faster way to make RGB pictures)
+## colorastro.py (a faster way to make RGB pictures)
 
 It is a simplified Astropy application for processing RGB image stored in the /data directory.
+
+using : aplply [for making RGB](https://aplpy.readthedocs.io/en/stable/api/aplpy.make_rgb_image.html#aplpy.make_rgb_image) and for image registration [Image-registration.py](https://image-registration.readthedocs.io/en/latest/image_registration.html#) or could use [AstroAlign](https://astroalign.readthedocs.io/en/latest/?fbclid=IwAR2t__2JR2mswh50jVfTIPIGzHDDtsK4Iv5rrT-AKHxIA9vFdX3-AAHLfRw)
 
 From some people insights we can try to use other Python pachages to color the pictures:
 
