@@ -74,6 +74,9 @@ Use django for making an app online
 ***
 # Useful links and DOCs
 - [Astropy](http://docs.astropy.org/en/stable/index.html) (DOCs for astropy)
+- [APLPY](https://aplpy.readthedocs.io/en/stable/#)
+- [image_registration](https://image-registration.readthedocs.io/en/latest/image_registration.html)
+
 - [Astropy tutorials](http://learn.astropy.org/)(Search Astropy tutorials)
 - [Pillow](https://pillow.readthedocs.io/en/stable/index.html) (DOCs of a Pyhton library for image processing)
 - [Scipy](http://scipy-lectures.org/advanced/image_processing/) (tips for image processing)
@@ -99,4 +102,4 @@ present in the file system :
 which uses pyRaf
 
 #### Good resources
-- Facebook group for ASTROPY
+- Facebook group for ASTROPY and Reddit
