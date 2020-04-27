@@ -74,8 +74,9 @@ Use django for making an app online
 ***
 # Useful links and DOCs
 - [Astropy](http://docs.astropy.org/en/stable/index.html) (DOCs for astropy)
-- [APLPY](https://aplpy.readthedocs.io/en/stable/#)
-- [image_registration](https://image-registration.readthedocs.io/en/latest/image_registration.html)
+- [APLPY](https://aplpy.readthedocs.io/en/stable/#) (Making RGB from FITS)
+- [image_registration](https://image-registration.readthedocs.io/en/latest/image_registration.html) (shifting and image registration in python)
+
 
 - [Astropy tutorials](http://learn.astropy.org/)(Search Astropy tutorials)
 - [Pillow](https://pillow.readthedocs.io/en/stable/index.html) (DOCs of a Pyhton library for image processing)
@@ -85,7 +86,7 @@ Use django for making an app online
 - [http://prancer.physics.louisville.edu/astrowiki/index.php/Image_processing_with_Python_and_SciPy](http://prancer.physics.louisville.edu/astrowiki/index.php/Image_processing_with_Python_and_SciPy)(FITS images hints)
 - [Fitstoimg](https://github.com/psds075/fitstoimg) (fits extension to Jpg)
 - [SCIKIT- IMAGE a Py Library on GitHub](https://github.com/scikit-image/scikit-image)
-- [An Astropy library to make it easy? APLPY](https://aplpy.readthedocs.io/en/stable/fitsfigure/quick_reference.html) (APLPY library)
+
 
 
 #### Other general links
