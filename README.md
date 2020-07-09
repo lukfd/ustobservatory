@@ -98,4 +98,6 @@ present in the file system :
 which uses pyRaf
 
 #### Good resources
-- Facebook group for ASTROPY
+- [Facebook group](https://www.facebook.com/groups/1596306890613995/search/?q=luca%20comba) for ASTROPY
+- [Reddit group](https://www.reddit.com/r/askastronomy/)
+- [Image Registration Reddit](https://www.reddit.com/r/askastronomy/comments/g8p1oz/image_registration_in_python/)
