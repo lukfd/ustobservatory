@@ -17,6 +17,8 @@ It's called Image Registration.
 [Astronomical Image Registration Docs](https://image-registration.readthedocs.io/en/latest/)
 ,[Github tutorial](https://github.com/keflavich/image_registration)
 ,[A paper about it](https://arxiv.org/pdf/1909.02946.pdf)
+
+[github issue for image_registering](https://github.com/keflavich/image_registration/issues/26)
 - [ ] merge green, red and blue fits images
 - [ ] adjust colors levels
 - [ ] rotate images correctly
