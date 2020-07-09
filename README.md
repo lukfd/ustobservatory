@@ -103,10 +103,8 @@ present in the file system :
 which uses pyRaf
 
 #### Good resources
-<<<<<<< HEAD
+
 - [Facebook group](https://www.facebook.com/groups/1596306890613995/search/?q=luca%20comba) for ASTROPY
 - [Reddit group](https://www.reddit.com/r/askastronomy/)
 - [Image Registration Reddit](https://www.reddit.com/r/askastronomy/comments/g8p1oz/image_registration_in_python/)
-=======
-- Facebook group for ASTROPY and Reddit
->>>>>>> bfa870deaf027a25cb71090aaad54898acca7f1d
+
