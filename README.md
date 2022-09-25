@@ -110,3 +110,6 @@ which uses pyRaf
 - [Reddit group](https://www.reddit.com/r/askastronomy/)
 - [Image Registration Reddit](https://www.reddit.com/r/askastronomy/comments/g8p1oz/image_registration_in_python/)
 
+#### scikit image
+
+- [scikit-image.org/docs](https://scikit-image.org/docs/stable/api/api.html)

@@ -1,10 +1,12 @@
-import numpy as np
+from image_registration import chi2_shift
+from image_registration.fft_tools import shift
 
-def createColoredImage(image_r, image_g, image_b, filename=None):
-	image_r = np.asarray(image_r)
-	image_g = np.asarray(image_g)
-	image_b = np.asarray(image_b)
-	    
-	rgb = np.dstack(image_r, image_g, image_b).astype(np.uint8)
-	import matplotlib.image
-	matplotlib.image.imsave(filename, rgb, origin = 'lower')
+# Return a shifted np.ndarray based on the chi2 calculation of the offeset
+# Check: https://image-registration.readthedocs.io/en/latest/index.html
+#        https://github.com/keflavich/image_registration/blob/master/examples/Cross%20Correlation.ipynb
+# Warning: Might be bad for stelar images
+def getShiftedImage(imageNdarray, imageShiftedNdarray):
+    xoff, yoff, exoff, eyoff = chi2_shift(imageNdarray, imageShiftedNdarray, return_error=True, upsample_factor='auto')
+    imageShiftedNdarray = shift.shiftnd(imageShiftedNdarray, (-yoff, -xoff))
+    #print(imageShiftedNdarray)
+    return imageShiftedNdarray

@@ -1,3 +1,4 @@
+from email.mime import image
 from astropy.io import fits
 
 
@@ -9,6 +10,11 @@ def getImageInfo(file):
 def getImageShape(file):
     image_data = fits.getdata(file)
     print(image_data.shape)
+
+
+def getImageType(file):
+    image_data = fits.getdata(file)
+    print(type(image_data))
 
 
 def getImageHeader(file):
