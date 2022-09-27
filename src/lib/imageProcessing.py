@@ -1,5 +1,5 @@
 from astropy.visualization import make_lupton_rgb
-from astropy.visualization import SqrtStretch
+from astropy.visualization import LinearStretch, ImageNormalize
 from astropy.convolution import Gaussian2DKernel, convolve
 import matplotlib.pyplot as plt
 from datetime import datetime as date
@@ -13,9 +13,16 @@ def convolveImage(imageNdArray):
     z = convolve(imageNdArray, g)
     return z
 
-def applySqrtStrech(imageNdArray):
-    stretch = SqrtStretch()
-    return stretch(imageNdArray)
+def applyStrech(imageNdArray, slope, intercept):
+    # normalize first
+    norm = ImageNormalize()
+    imageNdArray = norm(imageNdArray)
+
+    # apply stretch
+    stretch = LinearStretch(slope, intercept)
+    imageNdArray = stretch(imageNdArray)
+
+    return imageNdArray
 
 # Return a flatten image
 # Reference: https://linuxtut.com/en/2d82fe71f41fc00cb6f8/
@@ -28,6 +35,8 @@ def plotColoredImage(redNdarray, greenNdarray, blueNdarray):
     rgbProcessed = make_lupton_rgb(
         redNdarray, 
         greenNdarray, 
-        blueNdarray, 
+        blueNdarray,
+        stretch = 10, 
+        Q = - 0.09,
         filename="../processed/" + date.now().strftime("%m-%d-%Y %H-%M-%S") + ".jpeg")
     plt.imshow(rgbProcessed, origin='lower')

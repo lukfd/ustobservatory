@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from astropy.io import fits
+from astropy.visualization import hist
 
 
 def showImageGray(file):
@@ -21,7 +22,9 @@ def showImageGrayLog(file):
 def showImageHistogram(file):
     image_data = fits.getdata(file)
     plt.hist(image_data.flatten(), bins='auto')
-    plt.show()
+
+def plotArrayHistogram(array):
+    hist(array.tolist(), bins='blocks')
 
 
 def showImageCoordinates(file):

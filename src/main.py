@@ -15,6 +15,12 @@ ndarrayR = converter.convertImageToNdarray("../data/M66-Color/M66-S001-Red-R001-
 ndarrayG = converter.convertImageToNdarray("../data/M66-Color/M66-S001-Green-R001-Green.fts")
 ndarrayB = converter.convertImageToNdarray("../data/M66-Color/M66-S002-Blue-R002-Blue.fts")
 
+# Stretch arrays
+# print("Stretching images")
+ndarrayR = processor.applyStrech(ndarrayR, slope=70, intercept=0.3)
+ndarrayG = processor.applyStrech(ndarrayG, slope=50, intercept=0.2)
+ndarrayB = processor.applyStrech(ndarrayB, slope=100, intercept=0.3)
+
 print("NDARRA RED")
 print(ndarrayR)
 print("")
@@ -27,11 +33,8 @@ print("NDARRA BLUE")
 print(ndarrayB)
 print("")
 
-# Stretch arrays
-# print("Stretching images")
-# ndarrayR = processor.applySqrtStrech(ndarrayR)
-# ndarrayG = processor.applySqrtStrech(ndarrayG)
-# ndarrayB = processor.applySqrtStrech(ndarrayB)
+# print("Plotting histogram")
+# show.plotArrayHistogram(ndarrayR)
 
 #gbImages = [ndarrayG, ndarrayB]
 
