@@ -12,19 +12,15 @@ Using fit, fits, fts files to get colorized pictures
 
 see newscript folder
 
-- [ ] allign images
+- [ ] allign images -> should try image registration based on coordinates
 It's called Image Registration. 
 [Astronomical Image Registration Docs](https://image-registration.readthedocs.io/en/latest/)
 ,[Github tutorial](https://github.com/keflavich/image_registration)
-,[A paper about it](https://arxiv.org/pdf/1909.02946.pdf)
-
-[github issue for image_registering](https://github.com/keflavich/image_registration/issues/26)
-- [ ] merge green, red and blue fits images
+,[A paper about it](https://arxiv.org/pdf/1909.02946.pdf), [github issue for image_registering](https://github.com/keflavich/image_registration/issues/26)
 - [ ] adjust colors levels
-- [ ] rotate images correctly
+- [ ] background filter
+- [ ] input args (able to select stretch)
 - [x] Read Fit imgs
-- [x] manipulate data
-- [x] manipulate pixels
 
 **Things to keep in mind :**
 - img with moving objects
@@ -34,37 +30,6 @@ It's called Image Registration.
 
 ---
 
-# Documentation
-
-## readfit.py
-Object to create is FitsData(filename)
-from this class there are these methods :
-
-**1. General Read Fits files***
-
-- __init__(filename)
-- close()
-
-**2. Reading meta data**
-
-- printInfo()
-- printDate()
-- setHeader(targname, observer)
-- getHeaderKeys() : return a list of the header's key
-- getHeaderKey(key) : return the key's value
-
-**3. Reading Image data**
-
-- getShape() : return tuple of the shape of the image
-- getNameType() : return data type
-- getPixelArray() : return ENTIRE array of pixels values
-***
-## colorastro.py (a faster way to make RGB pictures)
-
-It is a simplified Astropy application for processing RGB image stored in the /data directory.
-
-using : aplply [for making RGB](https://aplpy.readthedocs.io/en/stable/api/aplpy.make_rgb_image.html#aplpy.make_rgb_image) and for image registration [Image-registration.py](https://image-registration.readthedocs.io/en/latest/image_registration.html#) or could use [AstroAlign](https://astroalign.readthedocs.io/en/latest/?fbclid=IwAR2t__2JR2mswh50jVfTIPIGzHDDtsK4Iv5rrT-AKHxIA9vFdX3-AAHLfRw)
-
 From some people insights we can try to use other Python pachages to color the pictures:
 
 - make_lupton_rgb just apply a asinh stretch and assumes that the input image is linear. Therefore you would just need to apply scale and Q as parameters of the method. Another problem that could be related to **make_lupton_rgb** is that is needed to change vmin and vmax [Reddit Post](https://www.reddit.com/r/askastronomy/comments/g078q6/problem_with_making_colored_images_in_astropy/)
@@ -72,7 +37,6 @@ From some people insights we can try to use other Python pachages to color the p
 - Another method is to use [APLpy](https://aplpy.readthedocs.io/en/stable/rgb.html?fbclid=IwAR1E8DeXcgFvlXJOzcY2QJO92zr-51ADO4rIg7sl-Qo_5YcTc0Srz1Lnyzg) Making RGB Images!
 - The issue with the M66 image seems to be that the background is too dark in respect to the object observed, we need to do some **Flat Fielding** [The github issue](https://github.com/keflavich/image_registration/issues/26)
 
-Use django for making an app online
 ***
 # Useful links and DOCs
 - [Astropy](http://docs.astropy.org/en/stable/index.html) (DOCs for astropy)
