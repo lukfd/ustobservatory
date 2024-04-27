@@ -30,28 +30,14 @@ The issue with the M66 image seems to be that the background is too dark in resp
 - [http://prancer.physics.louisville.edu/astrowiki/index.php/Image_processing_with_Python_and_SciPy](http://prancer.physics.louisville.edu/astrowiki/index.php/Image_processing_with_Python_and_SciPy)(FITS images hints)
 - [Fitstoimg](https://github.com/psds075/fitstoimg) (fits extension to Jpg)
 - [SCIKIT- IMAGE a Py Library on GitHub](https://github.com/scikit-image/scikit-image)
+- [scikit-image.org/docs](https://scikit-image.org/docs/stable/api/api.html)
 
-
-
-#### Other general links
+## Online Communities
 
 - [Space Telescope Science Institute - Home | STScI](http://www.stsci.edu/) , We help humanity explore the universe with advanced space telescopes and ever-growing data archives. 
 - NASA Fits support [Website](https://fits.gsfc.nasa.gov/), 
 - NASA SOFTWARE for data and Image processing [Website](https://software.nasa.gov/data_and_image_processing)
 - scikit-Image [Python Library](https://scikit-image.org/)
 - Ginga [a japanese Python library](http://www.astropython.org/packages/ginga/)
-
-#### files from the ssh observatory.
-present in the file system :
- Scripts (pipeline)
-which uses pyRaf
-
-#### Good resources
-
-- [Facebook group](https://www.facebook.com/groups/1596306890613995/search/?q=luca%20comba) for ASTROPY
 - [Reddit group](https://www.reddit.com/r/askastronomy/)
 - [Image Registration Reddit](https://www.reddit.com/r/askastronomy/comments/g8p1oz/image_registration_in_python/)
-
-#### scikit image
-
-- [scikit-image.org/docs](https://scikit-image.org/docs/stable/api/api.html)
