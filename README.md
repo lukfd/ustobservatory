@@ -1,5 +1,6 @@
-# University of St. Thomas' Observatory S
-*These data are property of the St. Thomas University. All rights are reserved.*
+# University of St. Thomas' Observatory
+*The data are property of the St. Thomas University.*
+
 Authors:
 - Luca Comba, [luca.comba98@gmail.com](luca.comba98@gmail.com)
 
