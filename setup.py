@@ -16,7 +16,7 @@ setup(
     ),
     entry_points={
         'console_scripts': [
-            f'ust-observatory-cli = {PROJECT_NAME}.:some_func',
+            f'ust-observatory-cli = {PROJECT_NAME}.cli',
         ]
     }
 )
