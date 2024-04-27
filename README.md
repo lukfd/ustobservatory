@@ -1,44 +1,22 @@
-# University of St. Thomas' Observatory
+# University of St. Thomas' Observatory S
 *These data are property of the St. Thomas University. All rights are reserved.*
-> Luca Comba : comb6457@stthomas.edu
-> for other infos [lukfd.github.io](https://lukfd.github.io/)
----
+Authors:
+- Luca Comba, [luca.comba98@gmail.com](luca.comba98@gmail.com)
 
-Using photoshop we should be able to process it easily, Nothing is better than coding it !
-Using fit, fits, fts files to get colorized pictures
-
----
-# ToDo List
-
-see newscript folder
-
-- [ ] allign images -> should try image registration based on coordinates
-It's called Image Registration. 
-[Astronomical Image Registration Docs](https://image-registration.readthedocs.io/en/latest/)
-,[Github tutorial](https://github.com/keflavich/image_registration)
-,[A paper about it](https://arxiv.org/pdf/1909.02946.pdf), [github issue for image_registering](https://github.com/keflavich/image_registration/issues/26)
-- [ ] adjust colors levels
-- [ ] background filter
-- [ ] input args (able to select stretch)
-- [x] Read Fit imgs
-
-**Things to keep in mind :**
-- img with moving objects
-- bad pixels
-- light pollution
-- circle pixels
-
----
+## Image Registration
 
 From some people insights we can try to use other Python pachages to color the pictures:
 
-- make_lupton_rgb just apply a asinh stretch and assumes that the input image is linear. Therefore you would just need to apply scale and Q as parameters of the method. Another problem that could be related to **make_lupton_rgb** is that is needed to change vmin and vmax [Reddit Post](https://www.reddit.com/r/askastronomy/comments/g078q6/problem_with_making_colored_images_in_astropy/)
-- Use matplotlib. [Here is an Example of MATPLOTLIB for coloring pictures](https://github.com/soar-telescope/goodman_pipeline/blob/f0e050e1762e984e491577bdda383d63c49d7ab4/goodman_pipeline/core/core.py?fbclid=IwAR2o2UprDblvUramMnZVuoRfNy3KGukHahg7jIMoEJ6n-vT_JyG5CgXr0N8#L3193-L3209) The only imporntat part is to define the lower and upper limits as is Z1 and Z2, so then in imshow() use clim(Z1, Z2) where formulas for Z1 and Z2 come form iraf.
-- Another method is to use [APLpy](https://aplpy.readthedocs.io/en/stable/rgb.html?fbclid=IwAR1E8DeXcgFvlXJOzcY2QJO92zr-51ADO4rIg7sl-Qo_5YcTc0Srz1Lnyzg) Making RGB Images!
-- The issue with the M66 image seems to be that the background is too dark in respect to the object observed, we need to do some **Flat Fielding** [The github issue](https://github.com/keflavich/image_registration/issues/26)
+make_lupton_rgb just apply a asinh stretch and assumes that the input image is linear. Therefore you would just need to apply scale and Q as parameters of the method. Another problem that could be related to **make_lupton_rgb** is that is needed to change vmin and vmax [Reddit Post](https://www.reddit.com/r/askastronomy/comments/g078q6/problem_with_making_colored_images_in_astropy/)
 
-***
-# Useful links and DOCs
+Use matplotlib. [Here is an Example of MATPLOTLIB for coloring pictures](https://github.com/soar-telescope/goodman_pipeline/blob/f0e050e1762e984e491577bdda383d63c49d7ab4/goodman_pipeline/core/core.py?fbclid=IwAR2o2UprDblvUramMnZVuoRfNy3KGukHahg7jIMoEJ6n-vT_JyG5CgXr0N8#L3193-L3209) The only imporntat part is to define the lower and upper limits as is Z1 and Z2, so then in imshow() use clim(Z1, Z2) where formulas for Z1 and Z2 come form iraf.
+
+Another method is to use [APLpy](https://aplpy.readthedocs.io/en/stable/rgb.html?fbclid=IwAR1E8DeXcgFvlXJOzcY2QJO92zr-51ADO4rIg7sl-Qo_5YcTc0Srz1Lnyzg) Making RGB Images!
+
+The issue with the M66 image seems to be that the background is too dark in respect to the object observed, we need to do some **Flat Fielding** [The github issue](https://github.com/keflavich/image_registration/issues/26)
+
+
+## Other Resources
 - [Astropy](http://docs.astropy.org/en/stable/index.html) (DOCs for astropy)
 - [APLPY](https://aplpy.readthedocs.io/en/stable/#) (Making RGB from FITS)
 - [image_registration](https://image-registration.readthedocs.io/en/latest/image_registration.html) (shifting and image registration in python)

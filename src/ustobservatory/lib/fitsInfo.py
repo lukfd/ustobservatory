@@ -27,8 +27,8 @@ def printImageHeaderList(file):
 
 
 def printImageColorFilter(file):
-    print(getImageHeader(file)['FILTER'])
+    print(getImageHeader(file)["FILTER"])
 
 
 def printImageDate(file):
-    print(getImageHeader(file)['DATE'])
+    print(getImageHeader(file)["DATE"])
