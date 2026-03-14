@@ -4,6 +4,33 @@
 Authors:
 - Luca Comba, [luca.comba98@gmail.com](luca.comba98@gmail.com)
 
+## Set up
+It is advised to use a virtual environment:
+```
+make init
+```
+
+To build the project run:
+```
+make build
+```
+
+Or you can run
+```
+python3 -m pip install .
+```
+
+To clean up the virtual environment:
+```
+make clean
+```
+
+## Cli
+to run the command line interface after have ran the `make build` command, you can run:
+```
+ust-observatory-cli -h
+```
+
 ## Image Registration
 
 From some people insights we can try to use other Python pachages to color the pictures:

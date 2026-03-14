@@ -1,0 +1,14 @@
+[project]
+name = "ustobservatory"
+version = "0.0.1"
+dependencies = [
+    "astropy",
+    'importlib-metadata; python_version<"3.10"',
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["ustobservatory*"]
+
+[project.scripts]
+ust-observatory-cli = "ustobservatory.cli.cli:cli"

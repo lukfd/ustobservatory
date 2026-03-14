@@ -1,4 +1,3 @@
-from email.mime import image
 from astropy.io import fits
 
 
